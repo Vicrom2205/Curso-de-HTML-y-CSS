@@ -1,0 +1,11 @@
+body {
+    background-color: #0f0;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #0005;
+    background-image: url("https://img.freepik.com/fotos-premium/chica-anime-pelirroja-playa-generativa-ai_850810-1557.jpg?w=740");
+    background-size: contain;
+}
