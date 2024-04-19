@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 280px;
+    height:360px;
+    background:#4443;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow:0px 0 55px 0px #0007;
+    padding: 20px;
+    padding-top: 10px ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #444;
+}
+h2 {
+    text-shadow: 0 0 5px blue;
+}
+p {
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    text-shadow: 0 0 4px #f00b;
+}

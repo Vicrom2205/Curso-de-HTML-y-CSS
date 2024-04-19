@@ -7,7 +7,7 @@ body {
     width: 300px;
     height: 400px;
     margin: 0;
-    background: linear-gradient(transparent, #000a);
+    background: radial-gradient(green, #000a);
     margin: auto;
     border-radius: 7px;
     margin-top: 20px;
