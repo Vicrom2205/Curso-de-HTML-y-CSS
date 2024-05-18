@@ -1,0 +1,62 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* Cuando pasamos el mouse por encima de h1*/
+h1:hover {
+    color: black;
+    background-color: gray;
+    width: 300px;
+}
+
+/* CUANDO DAMOS CLICK A H1*/
+h1:active {
+    color: white;
+    background-color: blue;
+}
+
+/* SELECCIONANDO EL PRIMER LI*/
+li:first-child {
+    color: red;
+}
+
+/* SELECCIONANDO EL SEGUNDO O CUALQUIER OTRO LI*/
+li:nth-child(2) {
+    color: greenyellow;
+}
+
+/*sELECCIONANDO EL ULTIMO LI*/
+li:last-child {
+    color: blue;
+}
+
+/*SELECCIONANDO LOS LI DENTRO DE ".LISTA" PERO QUE NO TENGAN LA CLASE EXCLUIR*/
+.lista li:not(.excluir) {
+    color: violet;
+}
+
+/* SELECCIONANDO EL DIV EN CASO DE ESTAR VACIO*/
+div:empty {
+    background-color: greenyellow;
+    padding: 30px;
+}
+
+input[type="checkbox"] {
+    margin: 50px;
+}
+
+input[type="checkbox"]:checked {
+    margin: 0;
+}
+
+/* SELECCIONANDO ENLACES NO VISITADOS*/
+a:link {
+    color: red;
+}
+
+/* SELECCIONANDO ENLACES VISITADOS*/
+a:visited {
+    color: green;
+}
