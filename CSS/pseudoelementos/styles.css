@@ -1,0 +1,9 @@
+div {
+    padding: 20px;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 3em;
+    letter-spacing: -10px;
+}

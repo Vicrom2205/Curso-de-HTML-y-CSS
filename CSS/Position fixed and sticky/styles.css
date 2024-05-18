@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    padding: 150px;
+    background-color: blue;
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    box-shadow: 0 0 45px #000;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    font-size: 30px;
+}
