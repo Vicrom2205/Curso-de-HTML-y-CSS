@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: #f00;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid #000;
+}
+
+.box:hover {
+    outline: 5px solid #0f0;
+    outline-offset: 10px;
+}
